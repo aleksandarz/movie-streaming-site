@@ -2,14 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Movie streaming site</title>
 </head>
 <body>
     <form id="movie-form" action="" >
-        <input type="text" name="movie-name" id="movie-name" placeholder="Enter movie name">
+        <input type="text" name="movie-name" id="movie-name" placeholder="Enter a movie name">
         <select id="year-selection"></select>
         <button id="search-movie" type="button">Search movie</button>
     </form>
+
+    <div class="existing-movies-div"></div>
+    <div class="movies-div"></div>
+    <button class="clear-all-searches" type="button">Clear all movie searches</button>
 
     <script src="dist/bundle.js"></script>
 </body>

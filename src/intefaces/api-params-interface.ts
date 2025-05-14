@@ -1,4 +1,4 @@
-export interface APIParamsInterface
+export interface ApiParamsInterface
 {
     key: string;
     value: string;
