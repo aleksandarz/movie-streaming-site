@@ -3,7 +3,7 @@ import { yearGenerator } from "./helpers/year-generator-helper";
 import { showMovies } from "./helpers/display-movies-helper";
 import { saveSearchParams } from "./helpers/save-to-localstorage";
 import { getAllMovieSearches } from "./helpers/save-to-localstorage";
-import {singleMovieSearchInterface} from "./intefaces/single-movie-search-interface";
+import {singleMovieSearchInterface} from "./interfaces/single-movie-search-interface";
 
 yearGenerator(2025, 1960, 2025);
 
